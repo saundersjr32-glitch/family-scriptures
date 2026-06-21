@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/storage"
+  to = "/.netlify/functions/storage"
+  status = 200
